@@ -1,0 +1,137 @@
+/* 1.mobile and tablet */
+@media (max-width: 1023px) {
+   
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+}
+
+    
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .app__nav-right {
+        width: 129.5%;
+    }
+    .playlist {
+        margin-left: 5px;
+        height: 571px;
+    }
+    .wrap__info  {
+        padding-left: 242px;
+    }
+    .app__nav-right-bot-list {
+        left: 11%;
+    }
+    .all-music-container {
+        padding: 60px 8px 0;
+    }
+    .wrap__info > h2 {
+        font-size: 3rem;
+    }
+    .nav__left-logo-zingmp3 {
+        background-size: 64px;
+        margin-left: 26px;
+    }
+    .app__control-container {
+        height: 168px;
+        bottom: 3px;
+    }
+    .control-bar-item-down {
+        bottom: 50px;
+    }
+    .app__nav-left {
+        height: 1075px;
+    }
+   
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+
+    }
+    /* COLOR */
+    .app__nav-right {
+        background-image: linear-gradient(to right top, #FF0076, #590FB7);
+       
+    }
+    .app__nav-right-list-icon {
+        background-image: linear-gradient(to right top, #FF0076, #590FB7);
+
+    }
+    .app__nav-left {
+        background-image: linear-gradient(to right top, #FF0076, #590FB7);
+
+    }
+    .active3 {
+        background-image: linear-gradient(to right top, #ED7B84, #9055FF);
+
+    }
+    .app__control-container {
+        background-image: linear-gradient(to right top, #FF0076, #590FB7);
+
+    }
+    .progress-area {
+        background: #8976a9;
+    }
+    /* END COLOR */
+    .nav__left-logo-zingmp3 {
+        background-size: 40px;
+        margin-left: 10px;
+    }
+    .nav__left-item {
+        padding: 5px 5px;
+    }
+    .btn-music {
+        width: 118px;
+    }
+    .all-music-container {
+        padding: 10px 1px 0;
+    }
+    .playlist {
+        margin: 0;
+        width: 360px;
+    }
+    
+    .app__nav-left {
+        height: 736px;
+    }
+    ::-webkit-scrollbar {
+        height: 8px;
+        width: 2px;
+    }
+   .player {
+       width: 414px;
+   }
+   .app__control-container {
+       padding: 0;
+       width: 590px;
+   }
+   .control-bar-item-down {
+    margin: 0 18px 0 22px;
+    width: 370px;
+   }
+   .wrap__info {
+       padding: 0;
+   }
+   .app__nav-right-user-box  {
+       height: 155px;
+   }
+   .right__user-box-info {
+       width: 100%;
+   }
+   .wrap__info > h2 {
+       font-size: 3rem;
+   }
+    
+
+} 
+
+
